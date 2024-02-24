@@ -1,6 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Environment Variables
+- Copy .env.example into root project folder as .env
+- SMS TEST Backend as Default running in port 8000, change the port if needed.
+
 ## Getting Started
+
 
 First, run the development server:
 
