@@ -1,0 +1,115 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e8e8e8;
+    border-radius: 16.2px;
+    background-color: #edf2ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0.2rem;
+    height: 100%;
+}
+
+/* Card Header */
+.card_header {
+    position: relative;
+    width: 100%;
+    height: 6rem;
+}
+
+.card_header .course_bg {
+    width: 100%;
+    height: 6rem;
+    border-radius: 13px 13px 0 0;
+}
+
+.card_header .course_university_image {
+    position: absolute;
+    border-radius: 2px;
+    width: 4.5rem;
+    height: 4.5rem;
+    left: 1rem;
+    top: 3rem;
+}
+
+/* End Card Header */
+
+/* Card Body */
+
+.card_body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+    background-color: white;
+    border-radius: 0 0 13px 13px;
+    margin-top: 0.3rem;
+}
+
+.course_name {
+    font-size: 1rem;
+    font-weight: 800;
+    margin: 1rem 0 1rem 0;
+}
+
+.course_univ_country {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.course_fee_wrapper {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.course_fee {
+    padding: 0.5rem;
+}
+
+.course_fee_text {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.course_level_scholarship {
+    font-size: 14px;
+    color: #0c5de9;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+
+.course_scholarship_name {
+    font-size: 15px;
+    border-left: 3px solid #508df6;
+    border-radius: 1px;
+    padding: 0.2rem 0.2rem 0.2rem 0.7rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.course_scholarship_promo {
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #edf2ff;
+    padding: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 1.7rem;
+}
+
+.course_action {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.course_cta {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}

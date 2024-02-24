@@ -1,0 +1,37 @@
+/* Search Box */
+.search_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.search_input {
+    width: 33.333333%;
+    padding: 0.8rem 0.8rem;
+    border-radius: 10px
+}
+
+/* Media Query for screens 1280px and below (typical tablets and mobile devices) */
+
+
+@media (min-wiodmax-width: 1024px) {
+    .search_input:nth-child(1), .search_input:nth-child(2) {
+        width: 50%;
+    }
+}
+
+/* Media Query for screens 320px and below (typical mobile devices) */
+@media (max-width: 480px) {
+    .search_container {
+        flex-direction: column;
+    }
+
+    .search_input {
+        width: 100%;
+    }
+}
+
+
+/* End Search Box */
